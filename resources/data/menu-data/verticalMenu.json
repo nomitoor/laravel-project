@@ -1,0 +1,75 @@
+{
+  "menu": [
+    {
+      "url": "packages",
+      "name": "Package",
+      "icon": "home",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "packages/create",
+          "name": "Create Package",
+          "icon": "circle",
+          "slug": "packages.create"
+        },
+        {
+          "url": "packages",
+          "name": "View Packages",
+          "icon": "circle",
+          "slug": "packages.index"
+        }
+      ]
+      
+    },
+    {
+      "url": "customer-packages",
+      "name": "User Packages",
+      "icon": "home",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "customer-packages",
+          "name": "View User Packages",
+          "icon": "circle",
+          "slug": "customer-packages.index"
+        }
+      ]
+      
+    },
+    {
+      "url": "users",
+      "name": "Users",
+      "icon": "home",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "users",
+          "name": "View Users",
+          "icon": "circle",
+          "slug": "users.index"
+        }
+      ]
+    },
+    {
+      "url": "sip-users",
+      "name": "SIP Users",
+      "icon": "home",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "sip-users/create",
+          "name": "Add SIP Users",
+          "icon": "circle",
+          "slug": "sip-users.create"
+        },
+        {
+          "url": "sip-users/index",
+          "name": "View SIP Users",
+          "icon": "circle",
+          "slug": "index"
+        }
+      ]
+      
+    }
+  ]
+}

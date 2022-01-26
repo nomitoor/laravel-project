@@ -1,0 +1,28 @@
+{
+  "menu": [
+    {
+      "url": "package",
+      "name": "Package",
+      "icon": "home",
+      "slug": "home"
+    }, {
+      "name": "Page Layouts",
+      "icon": "layout",
+      "dropdown": "1",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "layouts/boxed",
+          "name": "Layout Boxed",
+          "slug": "layout-boxed"
+        },
+        {
+          "url": "layouts/without-menu",
+          "name": "Without Menu",
+          "slug": "without-menu"
+        }
+      ]
+    }
+    
+  ]
+}
